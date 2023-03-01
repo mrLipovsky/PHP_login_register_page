@@ -1,4 +1,10 @@
-<?php include('server.php'); ?>
+<?php include('server.php'); 
+    //if user is not ogged than can not acces this page 
+    if (empty($_SESSION['username'])) {
+        header('location: login.php');
+    }
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">

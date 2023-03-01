@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
             </div>
             <div class='input-group'>
                 <label>Password: </label>
-                <input type="text" id="password_1">
+                <input type="text" id="password">
             </div>
             <div class='input-group'>
                 <button type="submit" name="register" class="btn">Login</button>
